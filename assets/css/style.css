@@ -1,0 +1,170 @@
+
+/* G: style menu tabs */
+.header {
+  background-color: white;
+  overflow: hidden;
+  max-width: 80%;
+  margin: auto;
+}
+
+.header a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+.header a.name {
+  float: left;
+  font-family: 'ZCOOL XiaoWei', serif;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 55px;
+}
+.header a.name:hover{
+  transition: all 1s ease-out;
+  color: #002fa7;
+}
+.header a.tab {
+  float: right;
+  font-family: 'Open Sans', serif;
+  padding-top: 40px;
+  padding-right: 20px;
+  font-size: 25px;
+}
+.header a.tab:hover{
+  transform:scale(1.1);
+  transition: all 0.9s ease-out;
+  color: grey;
+}
+.header a.selected {
+  float: right;
+  font-family: 'Open Sans', serif;
+  padding-top: 40px;
+  padding-right: 20px;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+/*------- index/aboutme: avatar -------*/
+.avatar {
+  position: absolute;
+  top: 120px;
+  left: 10%;
+  width: 500px;
+  height: 300px;
+  /* border: 3px solid #73AD21; */ /* ruler */
+}
+.avatar img{
+  position: absolute;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+/*------- aboutme: signature -------*/
+.signature {
+  position: absolute;
+  top: 450px;
+  left: 10%;
+  width: 500px;
+  height: 200px;
+  /* border: 3px solid #73AD21; /* ruler */
+}
+.signature p.name{
+  text-align: center;
+  font-family: 'Open Sans', serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 10px; 
+}
+.signature p.title{
+  text-align: center;
+  font-family: 'Open Sans', serif;
+  font-size: 18px;
+  margin: 10px 10px;
+}
+.signature img.location{
+  position: absolute;
+  left: 120px;
+  width: 24px;
+  height: 24px;
+}
+.signature p.location{
+  text-align: center;
+  font-family: 'Open Sans', serif;
+  font-size: 18px;
+  margin: 10px 10px;
+}
+
+.signature img.email{
+  position: absolute;
+  left: 110px;
+  width: 24px;
+  height: 24px;
+}
+.signature p.email{
+  text-align: center;
+  font-family: 'Open Sans', serif;
+  font-size: 18px;
+  margin: 10px 10px;
+}
+
+/*------- aboutme: social -------*/
+.social {
+  text-align: center;
+  position: absolute;
+  top: 660px;
+  left: 10%;
+  width: 500px;
+  height: 100px;
+  /* border: 3px solid #73AD21; /* ruler */
+}
+
+.social a {
+  text-decoration: none; 
+}
+
+.social a i {
+  color: black;
+}
+
+.social a i:hover {
+    transform:scale(1.3);
+    transition: all 0.9s ease-out;
+  }
+.social a i.fa-github:hover {
+    color: #6e5494;
+  }
+
+.social a i.fa-twitter:hover {
+    color: #1DA1F2;
+  }
+
+.social a i.fa-linkedin:hover {
+    color: #2867B2;
+  }
+
+.social a i.ai-google-scholar-square:hover {
+    color: #4285F4;
+  }
+
+/*------- aboutme: bio -------*/
+.bio {
+  position: absolute;
+  right: 10%;
+  width: 800px;
+  height: 500px;
+  border: 3px solid #73AD21; /* ruler */
+}
+
+/* G: style footer */
+.footer {
+  background-color: white;
+  font-size: 15px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
