@@ -214,11 +214,17 @@
 
 /*------- aboutme: bio -------*/
 .bio {
-  border: 3px solid #73AD21; /* ruler */
+  border: 3px solid green; /* ruler */
   width: 40%;
   margin-right: 205px;
   flex: 1;
   max-width: 1000px;;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.bio p {
+  font-size: 20px;
 }
 
 /* G: style footer */
