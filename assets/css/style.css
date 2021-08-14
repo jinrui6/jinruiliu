@@ -46,8 +46,10 @@
 }
 
 .content {
-  width: 100%;
+  max-width: 2000px;
   display: flex;
+  border: 2px solid blue;
+  margin: auto;
 }
 
 .contact-container {
@@ -55,6 +57,7 @@
   padding-top: 50px;
   border: 2px solid red;
   margin-left: 205px;
+  max-width: 1000px;;
 }
 
 #avatar {
@@ -214,6 +217,8 @@
   border: 3px solid #73AD21; /* ruler */
   width: 40%;
   margin-right: 205px;
+  flex: 1;
+  max-width: 1000px;;
 }
 
 /* G: style footer */
