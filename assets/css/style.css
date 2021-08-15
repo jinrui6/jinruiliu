@@ -48,17 +48,17 @@
 .content {
   max-width: 2000px;
   display: flex;
-  /* border: 2px solid blue; */
+  /*border: 2px solid blue;*/
   margin: auto;
   justify-content: center;
 }
 
 .contact-container {
   flex: 1;
-  padding-top: 50px;
-  border: 2px solid red;
+  padding-top: 20px;
+  /*border: 2px solid red;*/
   margin-left: 205px;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 #avatar {
@@ -69,7 +69,6 @@
   position: relative;
   width: 100%;
   max-width: 350px;
-  height: auto;
   border-radius: 50%;
   display: block;
   margin: auto;
@@ -213,12 +212,12 @@
 
 /*------- aboutme: bio -------*/
 .bio {
-  border: 3px solid green; /* ruler */
+  /*border: 3px solid green; /* ruler */
   width: 40%;
   margin-right: 205px;
   flex: 1;
-  max-width: 400px;;
-  padding-top: 50px;
+  max-width: 500px;;
+  padding-top: 20px;
   padding-left: 50px;
 }
 
